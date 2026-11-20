@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "titulo": "Código Limpo",
+    "autor": "Robert C. Martin",
+    "categoria": "Engenharia de Software",
+    "ano": 2008,
+    "nota": 4.9,
+    "descricao": "Habilidades práticas do Agile Software para escrever código legível e sustentável."
+  },
+  {
+    "id": 2,
+    "titulo": "Duna",
+    "autor": "Frank Herbert",
+    "categoria": "Ficção Científica",
+    "ano": 1965,
+    "nota": 4.8,
+    "descricao": "A disputa pelo planeta desértico Arrakis e o controle da especiaria melange."
+  },
+  {
+    "id": 3,
+    "titulo": "O Programador Pragmático",
+    "autor": "Andrew Hunt e David Thomas",
+    "categoria": "Engenharia de Software",
+    "ano": 1999,
+    "nota": 4.9,
+    "descricao": "De aprendiz a mestre: lições atemporais sobre desenvolvimento e carreira."
+  },
+  {
+    "id": 4,
+    "titulo": "Neuromancer",
+    "autor": "William Gibson",
+    "categoria": "Ficção Científica",
+    "ano": 1984,
+    "nota": 4.6,
+    "descricao": "O clássico fundador do gênero cyberpunk sobre hackers e inteligências artificiais."
+  },
+  {
+    "id": 5,
+    "titulo": "Arquitetura Limpa",
+    "autor": "Robert C. Martin",
+    "categoria": "Arquitetura",
+    "ano": 2017,
+    "nota": 4.7,
+    "descricao": "O guia do artesão para estrutura e design de software independente de frameworks."
+  },
+  {
+    "id": 6,
+    "titulo": "Fundação",
+    "autor": "Isaac Asimov",
+    "categoria": "Ficção Científica",
+    "ano": 1951,
+    "nota": 4.8,
+    "descricao": "A queda de um império galáctico e a ciência da psico-história para salvar o conhecimento."
+  }
+]

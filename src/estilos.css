@@ -1,0 +1,159 @@
+:root {
+  --cor-fundo: #f4f6f9;
+  --cor-superficie: #ffffff;
+  --cor-primaria: #1e3a8a;
+  --cor-secundaria: #3b82f6;
+  --cor-texto: #1f2937;
+  --cor-texto-suave: #6b7280;
+  --cor-borda: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.5;
+}
+
+.app-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.cabecalho {
+  background-color: var(--cor-primaria);
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.cabecalho h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.cabecalho p {
+  color: #dbeafe;
+  font-size: 0.95rem;
+}
+
+.barra-controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: var(--cor-superficie);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--cor-borda);
+  margin-bottom: 1.5rem;
+}
+
+.campo-controle {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  gap: 0.35rem;
+}
+
+.campo-controle label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cor-texto-suave);
+}
+
+.campo-controle input,
+.campo-controle select {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background-color: #ffffff;
+}
+
+.resumo-resultados {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--cor-texto-suave);
+}
+
+.grade-livros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.cartao-livro {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.cartao-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.etiqueta-categoria {
+  background-color: #eff6ff;
+  color: var(--cor-primaria);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+
+.cartao-nota {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #d97706;
+}
+
+.cartao-livro h2 {
+  font-size: 1.15rem;
+  color: var(--cor-texto);
+}
+
+.cartao-autor {
+  font-size: 0.85rem;
+  color: var(--cor-texto-suave);
+}
+
+.cartao-descricao {
+  font-size: 0.9rem;
+  color: var(--cor-texto);
+}
+
+.mensagem-vazia {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--cor-superficie);
+  border-radius: 10px;
+  border: 1px dashed var(--cor-borda);
+  color: var(--cor-texto-suave);
+}
+
+@media (max-width: 600px) {
+  .cabecalho {
+    padding: 1.5rem 1rem;
+  }
+
+  .cabecalho h1 {
+    font-size: 1.4rem;
+  }
+}
